@@ -1,5 +1,6 @@
-import React from "react";
+import React from 'react';
 
-type AppProps = { num: number };
-
-export const App = ({num}: AppProps) => <h1>Total Number: {num}</h1>;
+export const App = () => <>
+    <h1>This is a test app</h1>
+    <p>Any resemblance to actual apps, living or otherwise, is purely coincidental</p>
+</>;
